@@ -13,37 +13,37 @@ We all know that one of the ways to deal with data is to retrieve data from sour
 > 3. It is a method of extracting data from websites.
 > 4. Parse HTML document to collect info from web pages.
 5. **Use cases**:
-> Price comparison services.
-> Extracting product data from an e-commerce website.
+> _ Price comparison services.
+> + Extracting product data from an e-commerce website.
 6. **Pros**:
-> Data is publicly accessible and free.
+> _ Data is publicly accessible and free.
 7. **Cons**: 
-> Legal and ethical considerations.
-> Subject to changes of website structures.
+> _ Legal and ethical considerations.
+> + Subject to changes of website structures.
 8. **Challenges**: 
-> Handling dynamic websites.
-> Handling anti-scraping mechanisms.
-> Maintaining scrapers.
+> _ Handling dynamic websites.
+> + Handling anti-scraping mechanisms.
+> * Maintaining scrapers.
 
 ## **3. APIs**:
 > 1. Provides a bridge between your software and an external system. APIs provide an interface for outside users so they can interact with that interface use certain endpoints to actually send or retrieve data.
 > 2. APIs help applications to connect with each other.
 > 3. APIs provide structured data in a standardized format.(JSON, XML)
 4. **Use cases**:
-> Integrating with third party services.
-> Accessing real-time data about sport scores, or weather data from a weather API.
+> _ Integrating with third party services.
+> + Accessing real-time data about sport scores, or weather data from a weather API.
 5. **Pros**:
-> Controlled access to data.
-> Less likely to violate terms of service.
-> Sructured and consistent data.
+> _ Controlled access to data.
+> + Less likely to violate terms of service.
+> * Sructured and consistent data.
 6. **Cons**:
-> Limited to the data provided by the API.
-> May require authentication and API keys.
-> May cost money to have an API key.
+> _ Limited to the data provided by the API.
+> + May require authentication and API keys.
+> * May cost money to have an API key.
 7. **Challenges**:
-> Finding suitable APIs.
-> Understanding API documentation.
-> Handling rate limits.
+> _ Finding suitable APIs.
+> + Understanding API documentation.
+> * Handling rate limits.
 
 ## When To Use?
 
