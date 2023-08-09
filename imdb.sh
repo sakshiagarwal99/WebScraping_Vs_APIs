@@ -8,7 +8,7 @@
 #
 # The script prints the movie data to the console.
 
-# Check if the IMDb API key is set.
+# Check if the OMDB API key is set.
 if [ -z $OMDB_API_KEY ]; then
   echo "Please set the OMDB_API_KEY environment variable."
   exit 1
@@ -20,13 +20,13 @@ if [ -z "$1" ]; then
   exit 1
 fi
 
-# Convert the movie title to a format that the IMDb API can understand.
+# Convert the movie title to a format that the API can understand.
 movie_title = $(echo "$1" | tr " " "+")
 
 # The URL of the IMDb API endpoint.
 api_endpoint="http://www.omdbapi.com/?t=${movie_title}&apikey=${OMDB_API_KEY}"
 
-# Get the data from the IMDb API endpoint.
+# Get the data from the API endpoint.
 data=$(curl -s "$api_endpoint" rl -s)
 
 # Check if the movie was found.
