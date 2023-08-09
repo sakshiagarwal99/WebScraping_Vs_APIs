@@ -8,19 +8,19 @@ We all know that one of the ways to deal with data is to retrieve data from sour
 > Where we write some queries against a database and then it extracts the data we are seeking.
 
 ## **2. Web Scraping**:
-> Not all data is stored in databases. Data is often stored in documents, in files, in case of HTML or XML files, those documents are structured.
-Using this knowledge we can focus on specific parts of the HTML document lets say a part that contains a paragraph we can use grep commands in bash to retrieve all content in that paragraph.
->It is a method of extracting data from websites.
->Parse HTML document to collect info from web pages.
-**Use cases**:
+> 1. Not all data is stored in databases. Data is often stored in documents, in files, in case of HTML or XML files, those documents are structured.
+2. Using this knowledge we can focus on specific parts of the HTML document lets say a part that contains a paragraph we can use grep commands in bash to retrieve all content in that paragraph.
+3. It is a method of extracting data from websites.
+Parse HTML document to collect info from web pages.
+4. **Use cases**:
 > Price comparison services.
 > Extracting product data from an e-commerce website.
-**Pros**:
+5. **Pros**:
 > Data is publicly accessible and free.
-**Cons**: 
+6. **Cons**: 
 > Legal and ethical considerations.
 > Subject to changes of website structures.
-**Challenges**: 
+7. **Challenges**: 
 > Handling dynamic websites.
 > Handling anti-scraping mechanisms.
 > Maintaining scrapers.
